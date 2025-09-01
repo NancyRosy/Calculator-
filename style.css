@@ -1,0 +1,55 @@
+body {
+  font-family: Times New Roman, serif;
+  margin : 0;
+  padding: 20px;
+  text-align : center ;
+  background:#ff5f2aa2 ;
+  }
+   /* ma calculatrice */
+.calculatrice {
+  width: 500;
+  height : 450px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #00adfff8;
+}
+
+/* mes boutons */
+.boutons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  
+
+}
+
+button {
+width: 200px;
+height: 70px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #7f83ff;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+/*  affichage */
+#affichage {
+  width: 800px;
+  height : 70px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color :#14140f;
+  color : white;
+}
